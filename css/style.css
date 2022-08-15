@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bebas+Neue&family=Raleway:wght@100&family=Roboto&family=Roboto+Slab:wght@200&family=Sriracha&family=Tapestry&display=swap');
+
+
+
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: wheat;
+    font-family: 'Barlow Condensed';
+
+
+}
+
+body{
+    background-color:  #15273F;
+    
+}
+main{
+background-color:#0D1A2D ;
+display: flex;
+padding: 15px;
+align-items: center;
+flex-direction: column;
+width: 20rem;
+height: 32rem;
+margin: 50px auto;
+border-radius: 10px;
+box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.432);
+}
+
+.card{
+    margin: auto;
+    border-radius: 10px ;
+    width: 100%;
+}
+
+.gift{
+    padding: 5px;
+}
+
+.gift > p{
+    text-align: justify;
+    color: rgba(245, 222, 179, 0.651);
+    padding-bottom: 10px;
+  
+   
+}
+
+
+
+.textos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 150px;
+   font-size: 14px;
+}
+
+.textos >p > img{
+    padding-right: 3px;
+}
+
+.ETH{
+    color: aqua;
+}
+
+
+
+
+
+
+.gift > h1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    
+}
+
+#linha-horizontal{
+    margin: 20px;
+    width: 18rem;
+  border: solid 0.5px rgba(245, 222, 179, 0.178);
+}
+
+
+.perfil{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.perfil >P{
+    text-align: center;
+}
+
+.perfil .imagem-perfil{
+
+    margin-left: -6rem;
+ max-width: 40px;
+ border-radius: 50%;
+border: 2px solid rgba(255, 245, 225, 0.568);
+
+}
+
+
+
